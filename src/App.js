@@ -170,7 +170,7 @@ function App() {
                 className="project__btn"
                 target="_blank"
               >
-                <i class="fas fa-eye"></i> Preview
+                <i className="fas fa-eye"></i> Preview
               </a>
             </div>
           </div>
@@ -208,7 +208,7 @@ function App() {
                 className="project__btn"
                 target="_blank"
               >
-                <i class="fas fa-eye"></i> Preview
+                <i className="fas fa-eye"></i> Preview
               </a>
             </div>
           </div>

@@ -9,7 +9,11 @@ function Header() {
   return (
     <header className="header">
       <div className="header__btn" onClick={() => setClick(!click)}>
-        {click ? <i class="fas fa-times"></i> : <i className="fas fa-bars"></i>}
+        {click ? (
+          <i className="fas fa-times"></i>
+        ) : (
+          <i className="fas fa-bars"></i>
+        )}
       </div>
 
       <nav className={`header__nav ${click ? "opening" : "closing"}`}>

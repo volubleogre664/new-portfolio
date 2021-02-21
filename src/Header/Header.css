@@ -35,13 +35,13 @@
 }
 
 .header > .header__nav > .header__navList > .header__navListItem > a {
-  color: rgb(4, 139, 168);
+  color: rgb(0, 208, 255);
   text-decoration: none;
 }
 
 .header > .header__nav > .header__navList > .header__navListItem > a:visited {
   text-decoration: none;
-  color: rgb(4, 139, 168);
+  color: rgb(0, 208, 255);
 }
 
 .header > .header__nav > .header__navList > .header__navListItem > a:hover {

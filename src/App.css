@@ -48,6 +48,11 @@ div {
   text-align: center;
 }
 
+.app > .app__hero > .app__heroIntro > .app__heroIntroTitle > .name {
+  font-weight: 900;
+  color: rgb(241, 143, 1);
+}
+
 .app > .app__hero > .app__heroIntro > .app__heroIntroSubtitle {
   font-weight: 200;
   font-size: 3rem;
@@ -74,6 +79,7 @@ div {
 
 /*  About Section */
 .app > .app__about {
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 80px 10%;
 }
 
@@ -84,7 +90,7 @@ div {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 900;
-  color: rgb(241, 143, 1);
+  color: rgb(185, 111, 0);
   text-decoration: overline;
 }
 
@@ -119,7 +125,7 @@ div {
   > .app__aboutBodyBio
   > .bio__description
   a {
-  color: rgb(4, 139, 168);
+  color: rgb(180, 109, 3);
   font-weight: 400;
 }
 
@@ -150,7 +156,7 @@ div {
 .app > .app__projects {
   box-sizing: border-box;
   padding: 80px 5%;
-  background: #048ba8;
+  background: #0d849e;
   /* background-size: cover; */
   /* background-attachment: fixed; */
 }
@@ -162,7 +168,7 @@ div {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 900;
-  color: rgb(241, 143, 1);
+  color: rgb(0, 35, 80);
   text-decoration: overline;
 }
 
@@ -179,7 +185,8 @@ div {
 
 .app > .app__projects > .app__projectsWork {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 15px;
 }
 
 .app > .app__projects > .app__projectsWork > .project {
@@ -194,7 +201,7 @@ div {
 .app > .app__projects > .app__projectsWork > .project > .project__title {
   font-size: 1.7rem;
   font-weight: 800;
-  color: rgb(241, 143, 1);
+  color: rgb(0, 35, 80);
 }
 
 .app > .app__projects > .app__projectsWork > .project > .project__img {
@@ -272,7 +279,7 @@ div {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 900;
-  color: rgb(241, 143, 1);
+  color: rgb(0, 208, 255);
   text-decoration: overline;
 }
 
@@ -281,7 +288,7 @@ div {
   font-size: 2.2rem;
   font-weight: 500;
   margin-bottom: 10px;
-  color: rgb(37, 75, 221);
+  color: rgb(245, 165, 46);
 }
 
 .app > .app__contact > .app__contactForm {
@@ -343,11 +350,10 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 35px;
+  gap: 20px;
 }
 
 .app > .app__footer > .app__footerContainer > .iconContainer {
-  /* margin: 20px; */
   padding: 10px 10px;
   background: rgb(1, 23, 53);
   color: rgb(4, 139, 168);
@@ -368,7 +374,7 @@ div {
   font-weight: 400;
   font-style: italic;
   text-align: center;
-  color: rgb(241, 143, 1);
+  color: rgb(165, 100, 1);
 }
 
 @media screen and (max-width: 960px) {
