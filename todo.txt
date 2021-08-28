@@ -1,0 +1,23 @@
+# Things to do to my portfolio.
+=====================================
+
+1. Make it an app with different pages and loading animations when
+   when switching pages.
+
+2. Rework the projects, make it a whole project and add my portfolio
+   to the projects I have done.
+
+3. Make my cloud function secure and understand how the whole thing works.
+
+4. Add different theme colors, maybe 3 will be fine.
+   -> The themes will be switched on the floating button that will open a modal.
+   -> Let's make this portfolio a symbol of my frontend skills.
+
+5. Try to add some sense of interactivity to it.
+
+6. Find out how to add loading page in react router dom.
+
+7. Will have to make a config JSON file for my terminal to use and store
+   all the available commands and stuff like the history.
+   That if a user clicks the arrow up button it should go up the list of items
+   in the history stack or queue
