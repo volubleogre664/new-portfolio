@@ -1,0 +1,52 @@
+.app > .app__hero {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  padding-top: 10vh;
+  place-items: center;
+  background-color: #011735;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23011735' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23032540' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%230e3249' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%231d4052' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%232d4e5a' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%233f5c63' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.app > .app__hero > .app__heroIntro {
+  width: fit-content;
+  color: #fff;
+  text-align: center;
+}
+
+.app > .app__hero > .app__heroIntro > .app__heroIntroTitle {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.app > .app__hero > .app__heroIntro > .app__heroIntroTitle > .name {
+  font-weight: 900;
+  color: rgb(241, 143, 1);
+}
+
+.app > .app__hero > .app__heroIntro > .app__heroIntroSubtitle {
+  font-weight: 200;
+  font-size: 3rem;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.app > .app__hero > .app__heroIntro > .app__heroIntroBtn {
+  transition: all ease-in-out 0.4s;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  border: 1.5px solid rgb(241, 143, 1);
+  color: rgb(241, 143, 1);
+  background: rgb(1, 33, 78);
+}
+
+.app > .app__hero > .app__heroIntro > .app__heroIntroBtn:hover {
+  border: 1.5px solid rgb(4, 139, 168);
+  color: rgb(4, 139, 168);
+}

@@ -1,0 +1,70 @@
+.app > .app__contact {
+  padding: 80px 10%;
+  background: #2e4057;
+}
+
+.app > .app__contact > .app__contactTitle {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgb(0, 208, 255);
+  text-decoration: overline;
+}
+
+.app > .app__contact > .app__contactSubtitle {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(245, 165, 46);
+}
+
+.app > .app__contact > .app__contactForm {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app > .app__contact > .app__contactForm > * {
+  height: 35px;
+  font-size: 1.6rem;
+  padding: 0 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  background: rgb(1, 33, 78);
+  border: none;
+  color: rgb(241, 143, 1);
+  outline: none;
+  font-weight: 300;
+  font-family: "Poppins", cursive;
+  box-sizing: border-box;
+}
+
+.app > .app__contact > .app__contactForm > *:focus {
+  background: rgb(1, 33, 78);
+  color: rgb(241, 143, 1);
+}
+
+.app > .app__contact > .app__contactForm > textarea {
+  padding: 10px;
+  font-size: 1.6rem;
+  height: calc(35px * 4);
+}
+
+.app > .app__contact > .app__contactForm > .app__contactFormBtn {
+  width: 30%;
+  margin-left: auto;
+  cursor: pointer;
+  border: 1.5px solid rgb(241, 143, 1);
+}
+
+.app > .app__contact > .app__contactForm > .app__contactFormBtn:hover {
+  border: 1.5px solid rgb(4, 139, 168);
+  color: rgb(4, 139, 168);
+}

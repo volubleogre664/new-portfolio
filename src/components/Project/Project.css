@@ -1,0 +1,112 @@
+.app > .app__projects {
+  box-sizing: border-box;
+  padding: 80px 5%;
+  background: #0d849e;
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+}
+
+.app > .app__projects > .app__projectsTitle {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgb(0, 35, 80);
+  text-decoration: overline;
+}
+
+.app > .app__projects > .app__projectsAttribution {
+  display: none;
+}
+
+.app > .app__projects > .app__projectsTiles {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.app > .app__projects > .app__projectsWork {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.app > .app__projects > .app__projectsWork > .project {
+  width: 48%;
+  padding: 15px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2),
+    -1px -1px 2px rgb(240, 240, 240, 0.5);
+}
+
+.app > .app__projects > .app__projectsWork > .project > .project__title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: rgb(0, 35, 80);
+}
+
+.app > .app__projects > .app__projectsWork > .project > .project__img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.app > .app__projects > .app__projectsWork > .project > .project__stack {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: 5px auto;
+}
+
+.app > .app__projects > .app__projectsWork > .project > .projectDescription {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.app > .app__projects > .app__projectsWork > .project > .project__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.app
+  > .app__projects
+  > .app__projectsWork
+  > .project
+  > .project__btns
+  > .project__btn {
+  transition: all ease-in-out 0.4s;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 20px;
+  font-weight: 600;
+  border: 1.5px solid rgb(241, 143, 1);
+  color: rgb(241, 143, 1);
+  background: rgb(1, 33, 78);
+}
+
+.app
+  > .app__projects
+  > .app__projectsWork
+  > .project
+  > .project__btns
+  > :first-child {
+  margin-left: 0;
+}
+
+.app
+  > .app__projects
+  > .app__projectsWork
+  > .project
+  > .project__btns
+  > .project__btn:hover {
+  border: 1.5px solid rgb(4, 139, 168);
+  color: rgb(4, 139, 168);
+}
