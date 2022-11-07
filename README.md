@@ -4,8 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # About the project
 
-This project is for the application to SovTechs'graduate programe 2023.
-View the live website on [https://sovtech.nduduzo.com](https://sovtech.nduduzo.com)
+This project is for the application to SovTechs'graduate programe 2023.\
+This project is hosted with Firebase
+View the live website on [https://sovtech-nduduzo.web.app/](https://sovtech-nduduzo.web.app/)
 
 ## Available Scripts
 
