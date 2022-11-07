@@ -1,14 +1,14 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 
 The Steps To Bootstrap the application:\
-Before continuing make sure you have [node](https://nodejs.org) installed on your system
+Before continuing make sure you have [node](https://nodejs.org) installed on your system.\
 
-To bootstrap an application run the following commands:
-`npx create-react-app name-of-app`
-`cd name-of-app`
-`npm start`
+To bootstrap an application run the following commands:\
+`npx create-react-app name-of-app`\
+`cd name-of-app`\
+`npm start`\
 
 Visit the [React Docs](https://reactjs.org) to learn more about the React library
 
