@@ -8,7 +8,7 @@ Before continuing make sure you have [node](https://nodejs.org) installed on you
 To bootstrap an application run the following commands:\
 `npx create-react-app name-of-app`\
 `cd name-of-app`\
-`npm start`\
+`npm start`
 
 Visit the [React Docs](https://reactjs.org) to learn more about the React library
 
